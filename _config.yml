@@ -22,9 +22,6 @@ darkmode: false
 twitter_username: jekyllrb
 github_username:  jekyll
 stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
 instagram_username: caseyy.kim
 linkedin_username: jekyll
 xing_username: jekyll
@@ -52,7 +49,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am a junior studying finance and marketing at Emory University in Atlanta, GA. Although I am a born and raised Georgia girl, I attended high school in Fairfax, VA. I spent my first two years of college attending William & Mary as a William & Mary Scholar Award recpient before transferring to Emory to pursue business. In my free time, I love to ski,  [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
