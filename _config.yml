@@ -100,9 +100,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      I was born and raised in Georgia but went to high school in Fairfax, VA. I completed my first two years of college at William & Mary on a full merit scholarship before transferring to Emory to pursue business. Traveling is my passion - I've visited 45 countries and counting! I also love to ski, practice yoga, and study mycology (mushrooms) in my spare time. 
 
 # Footer
 footer_show_references: true
