@@ -47,9 +47,9 @@ about_content: | # this will include new lines to allow paragraphs
   Currently, I maintain a rigorous 20 credit hour courseload, have a marketing research internship with Theater Emory, work part-time as a barista, and hold a TA position for Business Communications. In my extracurricular involvement, I'm the vice president of Emory Red Light, an antihuman trafficking organization, and vice president of mentorship of Emory Transfer Student Organization. My busy schedule has given me experience in task prioritization and time management, skills that I will take into any role that I step into. I am quick learner and hope to gain more hands-on experience and knowledge during my internship this summer. My skills include <mark>Excel</mark> and <mark>Python</mark>, and I have basic experience with Java and R Studio and am learning Nim.
 
 content: 
-  - title: Experience #Title for section
-    layout: list # Type of content section (list/text)
-    content:
+    - title: Experience #Title for section
+      layout: list # Type of content section (list/text)
+      content:
       - layout: right
         title: Goizueta Business School
         sub_title: TA for Business Communications
