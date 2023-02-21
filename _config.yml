@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: caseyykim/caseyykim.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -67,6 +67,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           The first project I am assigned to in this role is the promotion of an outside client's production, Mlima's Tale. In this project, I will draft licensing papers to acquire and reimagine existing student projects for the purpose of promoting Mlima's Tale. I will have creative freedom of how Mlima's Tale will be marketed to Seven Stages' existing audience. 
           My second project for this role will take focus on buildling an audience rather than promoting to it. In this role, I will work with Theater Emory's company manager to research and analyze data to identify a target audience and market towards them. This will involve hands-on experience in community engagement with the purpose of creating a long-term audience. 
+
   -title: Leadership
     layout: list
     content:
@@ -86,6 +87,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           I plan and organize ETSO's mentor program which pairs incoming transfer students and senior transfer students with similar interets and majors. Building an accepting and supportive transfer community is a personal goal of mine as transferring can be an alienating experience. As the vice president of mentorship, I also work with a small team to host transfer advice panels for our GBM of 80.    
+
   - title: Education
     layout: list
     content:
@@ -97,6 +99,7 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
