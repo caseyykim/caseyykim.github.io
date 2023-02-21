@@ -40,15 +40,15 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: C:\Users\casey\OneDrive\Documents\GitHub\Headshot.jfif
+about_profile_image: 
 about_content: | # this will include new lines to allow paragraphs
   I am a junior studying finance and marketing at Emory University in Atlanta, GA. I am seeking at internship for Summer 2023. 
   
   Currently, I maintain a rigorous 20 credit hour courseload, have a marketing research internship with Theater Emory, work part-time as a barista, and hold a TA position for Business Communications. In my extracurricular involvement, I'm the vice president of Emory Red Light, an antihuman trafficking organization, and vice president of mentorship of Emory Transfer Student Organization. My busy schedule has given me experience in task prioritization and time management, skills that I will take into any role that I step into. I am quick learner and hope to gain more hands-on experience and knowledge during my internship this summer. My skills include <mark>Excel</mark> and <mark>Python</mark>, and I have basic experience with Java and R Studio and am learning Nim.
 
-content:
-  - title: Experience
-    layout: list
+content: 
+  - title: Experience #Title for section
+    layout: list # Type of content section (list/text)
     content:
       - layout: right
         title: Goizueta Business School
@@ -58,6 +58,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           As a TA, my primary job is to lead a team of six new BBAs through two case competitions, teaching them vital communication skills. I coach students on their public speaking skills and on the effectiveness of their presentations, drawing on my years of experience as a private debate tutor. I also uttilize conflict management to resolve group tensions or personal issues of individual students. In addition to the active role I play with students, I also track class progress, grade assignments, and coordinate with a team of 12 TAs to create a seamless learning experience for the students.
+      
       - layout: right
         title: Emory College of Arts and Sciences
         sub_title: Marketing Research Intern
@@ -70,7 +71,7 @@ content:
 
   -title: Leadership
     layout: list
-    content:
+    content: 
       - layout: right
         title: Emory Red Light
         sub_title: Vice President
@@ -79,6 +80,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           Emory Red Light is an anti human trafficking organization. I work to coordinate service projects for our 20 members that involve volunteering to help human trafficking survivors directly, assembling care packages for survivors and fundraising. Recently, I've coordinated with four other executive board members to put on an art show displaying works of survivors and hosting a lecture series about trauma-informed care.          
+     
       - layout: right
         title: Emory Transfer Student Organization
         sub_title: Vice President of Mentorship
@@ -113,22 +115,15 @@ footer_show_references: true
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
+include:
+ - _test
+
+exclude:
+  - vendor
+
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
